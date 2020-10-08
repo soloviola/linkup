@@ -1,4 +1,4 @@
-var config = (function(){
+var config = (function () {
 
 
     var row = 8;
@@ -6,7 +6,7 @@ var config = (function(){
     var objectCount = 14;
     var repeatCount = row * col / objectCount;
 
-    var time = 120;
+    var time = 200;
 
     var imgUrl = "./img/";
     var imgExtension = ".png";
@@ -23,13 +23,13 @@ var config = (function(){
                               </div>`;
 
     return {
-        row : row,
-        col : col,
-        objectCount : objectCount,
-        repeatCount: repeatCount, 
-        imgByName : imgByName,
+        row: row,
+        col: col,
+        objectCount: objectCount,
+        repeatCount: repeatCount,
+        imgByName: imgByName,
         itemDirectionHTML: itemDirectionHTML,
-        time : time,
+        time: time,
     }
 
 })();
